@@ -1,5 +1,6 @@
 #include "binary_trees.h"
-/* Graham S. Paul (122-array_to_avl.c) *
+
+/* Graham S. Paul (122-array_to_avl.c) */
 
 /**
  * array_to_avl - Develoops AVL tree from an array.

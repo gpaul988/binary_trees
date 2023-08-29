@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (1-binary_tree_insert_left.c) */
-
 /**
  * binary_tree_insert_left - Inputs node as left-child of
  * of another in binary tree.
@@ -10,6 +8,7 @@
  * Return: When parent is NULL or error occurs - NULL.
  *         O/W - directs to fresh node.
  */
+
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new;

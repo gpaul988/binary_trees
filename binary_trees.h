@@ -7,8 +7,6 @@
 #include <string.h>
 
 /* Data Shapes */
-/* Graham S. Paul (binary_trees.h)*/
-
 /**
  * struct binary_tree_s - The Binary tree node
  * @n: SAved integer in the node

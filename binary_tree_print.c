@@ -3,7 +3,6 @@
 #include <string.h>
 #include "binary_trees.h"
 
-/* Graham S. Paul (binary_tree_print.c)*/
 /* Original code from http://stackoverflO/W.com/a/13755911/5184480 */
 
 /**

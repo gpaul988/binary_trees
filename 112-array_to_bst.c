@@ -8,7 +8,6 @@
  * Return: Directs root node of genrated BST, or NULL upon failure.
  * Author: Graham S. Paul (112-array_to_bst.c)
  */
-
 bst_t *array_to_bst(int *array, size_t size)
 {
 	bst_t *tree = NULL;

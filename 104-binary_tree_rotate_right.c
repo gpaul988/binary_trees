@@ -7,7 +7,6 @@
  * Return: Directs fresh root node after rotation.
  * Author: Graham S. Paul (104-binary_tree_rotate_right.c)
  */
-
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree)
 {
 	binary_tree_t *pivot, *tmp;

@@ -29,7 +29,6 @@ int is_bst_helper(const binary_tree_t *tree, int lo, int hi)
  *
  * Return: 1 if tree is correct BST, O/W 0
  */
-
 int binary_tree_is_bst(const binary_tree_t *tree)
 {
 	if (tree == NULL)

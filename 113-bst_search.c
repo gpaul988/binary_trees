@@ -9,7 +9,6 @@
  *         Otherwise, Directs node holding the worth.
  * Author: Graham S. Paul (113-bst_search.c)
  */
-
 bst_t *bst_search(const bst_t *tree, int value)
 {
 	if (tree != NULL)

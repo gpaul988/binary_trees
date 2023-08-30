@@ -8,7 +8,6 @@
  * Return: Directs to root node of the Generated AVL, or NULL upon failure.
  * Author: Graham S. Paul (122-array_to_avl.c)
  */
-
 avl_t *array_to_avl(int *array, size_t size)
 {
 	avl_t *tree = NULL;

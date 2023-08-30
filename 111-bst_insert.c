@@ -8,7 +8,6 @@
  * Return: Directs to the generated node, or NULL on failure.
  * Author: Graham S. Paul (111-bst_insert.c)
  */
-
 bst_t *bst_insert(bst_t **tree, int value)
 {
 	bst_t *curr, *new;

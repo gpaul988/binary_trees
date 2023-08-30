@@ -8,7 +8,6 @@
  * O/W, 1.
  * Author: Graham S. Paul (15-binary_tree_is full.c)
  */
-
 int is_full_recursive(const binary_tree_t *tree)
 {
 	if (tree != NULL)

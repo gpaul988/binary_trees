@@ -7,7 +7,6 @@
  * Return: Number of leaves in the tree.
  * Author: Grahama S. Paul (12-binary_tree_leaves.c)
  */
-
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 	size_t leaves = 0;

@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (0-binary_tree_node.c) */
-
 /**
  * binary_tree_node - Develop binary tree node.
  * @parent: Directs to  parent of the node to Develop.

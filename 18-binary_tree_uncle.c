@@ -8,7 +8,6 @@
  * O/W, Directs to uncle node.
  * Author: Graham S. Paul (18-binary_tree_uncle.c)
  */
-
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	if (node == NULL ||

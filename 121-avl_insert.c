@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (121-avl_insert.c) */
-
 size_t height(const binary_tree_t *tree);
 int balance(const binary_tree_t *tree);
 avl_t *avl_insert_recursive(avl_t **tree, avl_t *parent,
@@ -13,6 +11,7 @@ avl_t *avl_insert(avl_t **tree, int value);
  * @tree: Directs root node of the tree to calculate the height.
  *
  * Return: If NULL, function must return 0, else return height.
+ * Author: Graham S. Paul (121-avl_insert.c)
  */
 
 size_t height(const binary_tree_t *tree)

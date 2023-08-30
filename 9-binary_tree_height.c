@@ -1,13 +1,12 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (9-binary_tree_height.c) */
-
 /**
  * binary_tree_height - Calculates height of binary tree.
  *
  * @tree: Directs to main home node of the
  * tree to calculates the height.
  * Return: When tree is NULL, purpose  must restore 0, O/W restore height.
+ * Author: Graham S. Paul (9-binary_tree_height.c)
  */
 
 size_t binary_tree_height(const binary_tree_t *tree)

@@ -1,8 +1,6 @@
 #include "binary_trees.h"
 #include "limits.h"
 
-/* Graham S. Paul (110-binary_tree_is_bst.c) */
-
 /**
  * is_bst_helper - Examines if binary tree is correct binary search tree.
  * @tree: DIrects root node of the tree to be examined.
@@ -10,6 +8,7 @@
  * @hi: worth of  the largest node visited this far.
  *
  * Return: If tree is valid BST, 1, O/W 0
+ * Author: Graham S. Paul (110-binary_tree_is_bst.c)
  */
 
 int is_bst_helper(const binary_tree_t *tree, int lo, int hi)

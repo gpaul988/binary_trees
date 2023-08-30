@@ -1,12 +1,11 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (11-binary_tree_size.c) */
-
 /**
  * binary_tree_size - Calculates size of a binary tree.
  * @tree: Directs to main home node of the tree to
  * calculate the size of.
  * Return: Size of the tree.
+ * Author: Graham S. Paul (11-binary_tree_size.c)
  */
 
 size_t binary_tree_size(const binary_tree_t *tree)

@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (114-bst_remove.c) */
-
 bst_t *inorder_successor(bst_t *root);
 bst_t *bst_delete(bst_t *root, bst_t *node);
 bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value);
@@ -12,6 +10,7 @@ bst_t *bst_remove(bst_t *root, int value);
  * @root: Directs root node of the BST to search.
  *
  * Return: Minimum value in @tree.
+ * Author: Graham S. Paul (114-bst_remove.c)
  */
 
 bst_t *inorder_successor(bst_t *root)

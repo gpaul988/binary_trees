@@ -1,13 +1,12 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (15-binary_tree_is full.c) */
-
 /**
  * is_full_recursive - Examines if binary tree is full repeatively.
  * @tree: Directs to the main home node of the tree to examine.
  *
  * Return: When tree is not full, 0.
  * O/W, 1.
+ * Author: Graham S. Paul (15-binary_tree_is full.c)
  */
 
 int is_full_recursive(const binary_tree_t *tree)

@@ -1,13 +1,12 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (111-bst_insert.c) */
-
 /**
  * bst_insert - Inputs worth in the Binary Search Tree.
  * @tree: Dual Directions to the root node of the BST to input the worth.
  * @value: Worth to be saved in node to be given.
  *
  * Return: Directs to the generated node, or NULL on failure.
+ * Author: Graham S. Paul (111-bst_insert.c)
  */
 
 bst_t *bst_insert(bst_t **tree, int value)

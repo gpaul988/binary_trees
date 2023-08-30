@@ -1,8 +1,6 @@
 #include "binary_trees.h"
 #include "limits.h"
 
-/* Graham S. Paul (120-binary_tree_is_avl.c) */
-
 size_t height(const binary_tree_t *tree);
 int is_avl_helper(const binary_tree_t *tree, int lo, int hi);
 int binary_tree_is_avl(const binary_tree_t *tree);
@@ -12,6 +10,7 @@ int binary_tree_is_avl(const binary_tree_t *tree);
  * @tree: Directs root node of the tree to Calculate the height.
  *
  * Return: If NULL, function must return 0, else return height.
+ * Author: Graham S. Paul (120-binary_tree_is_avl.c)
  */
 
 size_t height(const binary_tree_t *tree)

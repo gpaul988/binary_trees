@@ -1,13 +1,12 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (122-array_to_avl.c) */
-
 /**
  * array_to_avl - Develoops AVL tree from an array.
  * @array: Directs to first element of the array to be changed.
  * @size: Number of elements in @array.
  *
  * Return: Directs to root node of the Generated AVL, or NULL upon failure.
+ * Author: Graham S. Paul (122-array_to_avl.c)
  */
 
 avl_t *array_to_avl(int *array, size_t size)

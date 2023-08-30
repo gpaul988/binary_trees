@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (100-binary_trees_ancestor.c) */
-
 /**
  * binary_trees_ancestor - Discovers the smallest common
  * ancestor of two nodes.
@@ -10,6 +8,7 @@
  *
  * Return: When there is no common ancestors return NULL,
  * O/W return common ancestor.
+ * Author: Graham S. Paul (100-binary_trees_ancestor.c)
  */
 
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,

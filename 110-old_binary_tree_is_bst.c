@@ -2,8 +2,6 @@
 #include "limits.h"
 int is_bst_helper(const binary_tree_t *tree, int *largest);
 
-/* Graham S. Paul (110-old_binary_tree_is_bst.c) */
-
 #define VERBOSE 0
 
 /**
@@ -11,6 +9,7 @@ int is_bst_helper(const binary_tree_t *tree, int *largest);
  * @tree: Directs root node of the tree to examine.
  *
  * Return: 1 if tree is a corect BST, O/W 0
+ * Author: Graham S. Paul (110-old_binary_tree_is_bst.c)
  */
 
 int binary_tree_is_bst(const binary_tree_t *tree)

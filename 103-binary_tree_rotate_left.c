@@ -1,12 +1,11 @@
 #include "binary_trees.h"
 
-/* Grhaam S. Paul (103-binary_tree_rotate_left.c) */
-
 /**
  * binary_tree_rotate_left - Anti-clockwise rotation of binary tree.
  * @tree: Directs root node of the tree to rotate.
  *
  * Return: Directs fresh root node after rotation.
+ * Author: Grhaam S. Paul (103-binary_tree_rotate_left.c)
  */
 
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree)

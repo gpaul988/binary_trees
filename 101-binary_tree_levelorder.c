@@ -7,13 +7,12 @@ void pint_push(binary_tree_t *node, levelorder_queue_t *head,
 void pop(levelorder_queue_t **head);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 
-/* Graham S. Paul (101-binary_tree_levelorder.c) */
-
 /**
  * create_node - Generates fresh levelorder_queue_t node.
  * @node: Binary tree node for fresh node to be held.
  * Return: If error occurs, NULL.
  * O/W, directs to fresh node.
+ * Author: Graham S. Paul (101-binary_tree_levelorder.c)
  */
 
 levelorder_queue_t *create_node(binary_tree_t *node)

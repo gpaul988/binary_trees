@@ -1,6 +1,5 @@
 #include "binary_trees.h"
 
-
 /**
  * binary_tree_insert_right - Input node as right-child
  * of another in a binary tree.
@@ -8,6 +7,7 @@
  * @value: Value to save in Fresh node.
  * Return: When parent is NULL or an error occurs - NULL.
  *         O/W - a pointer to the new node.
+ * Author: Graham S. Paul (2-binary_tree_insert_right.c)
  */
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)

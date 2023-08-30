@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (14-binary_tree_balance.c) */
-
 /**
  * binary_tree_balance - Calculates the balance
  * component of a binary tree.
@@ -9,6 +7,7 @@
  * tree to Calculate the balance component.
  * Return: When tree is NULL, return 0,
  * O/W restore balance component.
+ * Author: Graham S. Paul (14-binary_tree_balance.c)
  */
 
 int binary_tree_balance(const binary_tree_t *tree)

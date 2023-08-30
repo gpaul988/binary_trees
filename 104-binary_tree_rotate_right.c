@@ -1,12 +1,11 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (104-binary_tree_rotate_right.c) */
-
 /**
  * binary_tree_rotate_right - Clockwise rotation of binary tree.
  * @tree: Directs root node of the tree to rotate.
  *
  * Return: Directs fresh root node after rotation.
+ * Author: Graham S. Paul (104-binary_tree_rotate_right.c)
  */
 
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree)

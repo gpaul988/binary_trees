@@ -7,14 +7,13 @@ void push(binary_tree_t *node, levelorder_queue_t *head,
 void pop(levelorder_queue_t **head);
 int binary_tree_is_complete(const binary_tree_t *tree);
 
-/* Graham S. Paul (102-binary_tree_is complete.c) */
-
 /**
  * create_node - Generates fresh levelorder_queue_t node.
  * @node: Binary tree node for Fresh node to held.
  *
  * Return: If error occurs, NULL.
- *			O/W directs to Fresh node.
+ * O/W directs to Fresh node.
+ * Author: Graham S. Paul (102-binary_tree_is complete.c)
  */
 levelorder_queue_t *create_node(binary_tree_t *node)
 {

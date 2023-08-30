@@ -1,12 +1,11 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (16-binary_tree_is perfect) */
-
 /**
  * is_leaf - Examins if a node is a leaf of a binary tree.
  * @node: Directs node to be examined.
  *
  * Return: When node is a leaf, 1, O/W, 0.
+ * Author: Graham S. Paul (16-binary_tree_is perfect)
  */
 
 unsigned char is_leaf(const binary_tree_t *node)

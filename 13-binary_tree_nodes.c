@@ -1,7 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (13-binary_tree_nodes.c) */
-
 /**
  * binary_tree_nodes - Computes nodes with
  * at least 1 child in a binary tree.
@@ -9,6 +7,7 @@
  * tree to compute the number of nodes.
  * Return: When tree is NULL, purpose must
  * return 0, O/W restore node count.
+ * Author: Graham S. Paul (13-binary_tree_nodes.c)
  */
 
 size_t binary_tree_nodes(const binary_tree_t *tree)

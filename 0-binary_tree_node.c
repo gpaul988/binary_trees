@@ -6,6 +6,7 @@
  * @value: Value to input in Fresh node.
  *
  * Return: node O/W NULL if error
+ * Author: Graham S. Paul (0-binary_tree_node.c)
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)

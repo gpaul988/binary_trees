@@ -1,6 +1,5 @@
 #include "binary_trees.h"
 
-/* Graham S. Paul (2-binary_tree_insert_night.c) */
 
 /**
  * binary_tree_insert_right - Input node as right-child

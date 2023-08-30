@@ -10,7 +10,6 @@
  * O/W return common ancestor.
  * Author: Graham S. Paul (100-binary_trees_ancestor.c)
  */
-
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 									 const binary_tree_t *second)
 {

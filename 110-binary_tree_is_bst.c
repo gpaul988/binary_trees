@@ -24,7 +24,8 @@ int is_bst_helper(const binary_tree_t *tree, int lo, int hi)
 }
 
 /**
- * binary_tree_is_bst - Examines if a binary tree is correct binary search tree.
+ * binary_tree_is_bst - Examines if a binary tree is
+ * correct binary search tree.
  * @tree: Directs root node of the tree to be examined.
  *
  * Return: 1 if tree is correct BST, O/W 0

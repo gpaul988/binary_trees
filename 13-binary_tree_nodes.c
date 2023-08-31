@@ -9,7 +9,6 @@
  * return 0, O/W restore node count.
  * Author: Graham S. Paul (13-binary_tree_nodes.c)
  */
-
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 	size_t nodes = 0;

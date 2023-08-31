@@ -56,7 +56,6 @@ void free_queue(levelorder_queue_t *head)
  *
  * Description: Upon malloc failure, exits with a status code of 1.
  */
-
 void pint_push(binary_tree_t *node, levelorder_queue_t *head,
 			   levelorder_queue_t **tail, void (*func)(int))
 {

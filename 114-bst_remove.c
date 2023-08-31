@@ -27,7 +27,6 @@ bst_t *inorder_successor(bst_t *root)
  *
  * Return: Directs fresh root node after deletion.
  */
-
 bst_t *bst_delete(bst_t *root, bst_t *node)
 {
 	bst_t *parent = node->parent, *successor = NULL;

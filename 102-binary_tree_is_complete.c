@@ -33,6 +33,7 @@ levelorder_queue_t *create_node(binary_tree_t *node)
  * free_queue - AllO/Ws a levelorder_queue_t queue.
  * @head: Directs to the beginning of queue.
  */
+
 void free_queue(levelorder_queue_t *head)
 {
 	levelorder_queue_t *tmp;
